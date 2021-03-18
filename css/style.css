@@ -1,0 +1,148 @@
+html{
+    height: 0;
+    width: 0;
+    color: white;
+}
+
+.container{ 
+    width: 440px;
+    height: 60px;
+    margin: 2em auto;
+}
+
+body{
+    background-color: rgb(58, 58, 218);
+    overflow-x: hidden;
+}
+
+.row h1{
+    width: 30px;
+    height: 25px;
+    background: white;
+    border-radius: 500px;
+    color: black;
+    padding: 15px;
+    font-size: 30px;
+    margin-left: 155px;
+    margin-right: 200px;
+}
+
+.col44{
+    flex-direction: row;
+    width: 360px;
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 200%;
+}
+
+
+.elemental{
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 400px;
+    margin-right: 500%;
+    position: absolute;
+    top: 0%;
+}
+
+.dso{
+    width: 370px;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 400px;
+    margin-right: 200%;
+    position: absolute;
+    top: 0%;
+}
+
+.elemental h1{
+    width: 20px;
+    height: 30px;
+    background: white;
+    border-radius: 500px;
+    color: black;
+    padding: 15px;
+    font-size: 30px;
+    margin-left: 230px;
+    margin-right: 100px;
+}
+
+.dso h1{
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 500px;
+    color: black;
+    padding: 15px;
+    font-size: 30px;
+    margin-left: 150px;
+    margin-right: 100px;
+    display: flex;
+}
+
+.vid{
+    background-color: rgb(21, 21, 124);
+    height: 280px;
+    width: 900px;
+    font-size: 18px;
+    font-family:Verdana, Tahoma, sans-serif;
+    position: absolute;
+    top: 300%;
+    text-align: center;
+    right: 110px;
+}
+
+.vid h4{
+    width: 870px;
+    height: 0%;
+    padding: 20px;
+    margin-top: 0%;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+
+.vid p{
+    color: rgb(38, 240, 129);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 900px;
+    height: 40px;
+    font-size: 20px;
+    animation: text 3s 1;;
+}
+
+@keyframes text {
+ 30% {
+     letter-spacing: 25px;
+     margin-bottom: -40px;    
+}
+85% {
+    letter-spacing: 8px;
+    margin-bottom: -40px;    
+}
+}
+
+.vid h5{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width: 750px;
+    height: 70px;
+    margin-left: 80px;
+}
+
+.vid button{
+    color: white;
+    padding: 5px;
+    height: 30px;
+    width: 220px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(103, 103, 218);
+}
+
+button:hover{
+    background-color: rgb(87, 87, 252);
+}
